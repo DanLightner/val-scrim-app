@@ -55,12 +55,6 @@ cd frontend
 npm install
 ```
 
-4. Set up environment variables
-Create a `.env` file in the root directory with the following variables:
-```env
-# Add your environment variables here
-```
-
 ## Running the Application
 
 1. Start the backend server
