@@ -7,8 +7,8 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <img src={crosshair} alt="Logo" className="logo" />
-        <span className="app-name">Valorant Scrim</span>
+        <img src={crosshair} alt="Logo" className="logo-icon" />
+        <span className="nav-title">Valorant Scrim</span>
       </div>
 
       <div className="nav-center">

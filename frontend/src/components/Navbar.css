@@ -1,41 +1,72 @@
+/* ===== Navbar Container ===== */
 .navbar {
-    display: flex;  /* This ensures the navbar elements are arranged in a row */
-    justify-content: space-between;  /* Distributes space between the elements */
-    align-items: center;  /* Vertically centers the items */
-    background-color: #333;  /* Adds a background color to your navbar */
-    padding: 10px 20px;  /* Adds some padding */
-    position: fixed;  /* Fixes the navbar at the top of the page */
-    width: 100%;  /* Ensures the navbar spans across the entire width */
-    top: 0;  /* Keeps the navbar at the top */
-    left: 0;
-    z-index: 1000;  /* Ensures it stays on top of other elements */
-  }
-  
-  .nav-left, .nav-center, .nav-right {
-    display: flex;  /* Aligns the items in each section horizontally */
-    align-items: center;  /* Vertically centers items */
-  }
-  
-  .nav-center {
-    gap: 20px;  /* Adds spacing between the links */
-  }
-  
-  .navbar .logo {
-    height: 40px;  /* Adjusts logo size */
-  }
-  
-  .navbar .bell-icon {
-    height: 30px;  /* Adjusts bell icon size */
-  }
-  
-  a {
-    text-decoration: none;  /* Removes underline from links */
-    color: white;  /* Sets text color to white */
-    font-weight: bold;  /* Makes text bold */
-    padding: 0 10px;  /* Adds padding around links */
-  }
-  
-  a:hover {
-    color: #ff0;  /* Changes link color when hovered */
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  background-color: #000101;
+  padding: 10px 20px;
+}
+
+/* ===== Navbar Sections ===== */
+.nav-left,
+.nav-center,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Center section stays centered regardless of side widths */
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Left section spacing */
+.nav-left {
+  gap: 10px;
+}
+
+/* Right section padding */
+.nav-right {
+  padding-right: 35px;
+}
+
+/* ===== Logo & Title ===== */
+.logo-icon {
+  height: 30px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-title {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+/* ===== Bell Icon ===== */
+.bell-icon {
+  height: 40px;
+}
+
+/* ===== Links ===== */
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+a:hover {
+  color: rgb(17, 159, 224);
+}

@@ -1,6 +1,7 @@
-/* body {
-    background-color: #000000; /* Black background */
-   /* color: #F5EDED; /* Light text color */
-   /* margin: 0; /* Remove any default body margin */
-    /*font-family: Arial, sans-serif; /* Optional: add a default font */
-/*  }
+ body {
+    background-color: #0d0d0d; /* Black background */
+    color: #fefeff; /* Light text color */
+    margin: 0; /* Remove any default body margin */
+    font-family: Arial, sans-serif; /* Optional: add a default font */
+    padding-top: 40px;
+  }
