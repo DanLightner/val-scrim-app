@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
-      <ChatBox />
+      { /* <ChatBox /> */}
     </div>
   )
 }
